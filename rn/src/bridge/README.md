@@ -19,20 +19,6 @@ bridge.destroy();
 
 ## Supported Request Events
 
-- `choicely:auth:getToken`
-- `choicely:auth:checkLogin`
-- `choicely:auth:getUserInfo`
-- `choicely:auth:openLogin`
-- `choicely:auth:logout`
-- `choicely:app:getContext`
-- `choicely:app:getConfig`
-- `choicely:app:getHistory`
-- `choicely:app:load`
-- `choicely:app:store`
-- `choicely:app:remove`
-- `choicely:app:uploadFile`
-- `choicely:app:uploadImage`
-- `choicely:app:openCamera`
 - `choicely:navigation`
 
 ## Bridge lint

@@ -19,12 +19,6 @@ const defaultComponentName = "hello";
 export const componentMapping = {
   [defaultComponentName]: require("./components/Hello"),
   counter: require("./components/Counter"),
-  bridge_probe: require("./components/BridgeProbe"),
-  "choicely-studio-app": require("./components/MainRouter"),
-  "choicely-studio-app-dev": require("./components/MainRouter"),
-  choicely_ai: require("./components/MainRouter"),
-  app_template: require("./components/MainRouter"),
-  app_history: require("./components/MainRouter"),
 };
 
 function RootShell({ useSafeAreaProvider, children }) {
