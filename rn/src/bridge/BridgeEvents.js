@@ -1,0 +1,17 @@
+export const BridgeEvents = Object.freeze({
+  AUTH_GET_TOKEN: "choicely:auth:getToken",
+  AUTH_CHECK_LOGIN: "choicely:auth:checkLogin",
+  AUTH_GET_USER_INFO: "choicely:auth:getUserInfo",
+  AUTH_OPEN_LOGIN: "choicely:auth:openLogin",
+  AUTH_LOGOUT: "choicely:auth:logout",
+  APP_GET_CONTEXT: "choicely:app:getContext",
+  APP_GET_CONFIG: "choicely:app:getConfig",
+  APP_GET_HISTORY: "choicely:app:getHistory",
+  APP_LOAD: "choicely:app:load",
+  APP_STORE: "choicely:app:store",
+  APP_REMOVE: "choicely:app:remove",
+  APP_UPLOAD_FILE: "choicely:app:uploadFile",
+  APP_UPLOAD_IMAGE: "choicely:app:uploadImage",
+  APP_OPEN_CAMERA: "choicely:app:openCamera",
+  NAVIGATION: "choicely:navigation",
+});

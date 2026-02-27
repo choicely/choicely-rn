@@ -1,0 +1,1 @@
+export { useIconFontStatus } from "../iconFontLoader";
