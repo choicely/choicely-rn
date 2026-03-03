@@ -3,7 +3,7 @@ module.exports = {
     android: {
       sourceDir: "../",
       appName: "app",
-      packageName: "com.choicely.app", // user your App package name
+      packageName: "com.choicely.studio", // user your App package name
     },
   },
 };
