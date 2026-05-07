@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "react-native start --config rn/metro.config.js --host 0.0.0.0",
+    "start": "node -r dotenv/config node_modules/react-native/cli.js start --config metro.config.js --host 0.0.0.0 dotenv_config_path=.env",
     "test": "jest --runInBand",
     "typecheck": "tsc --project tsconfig.json --noEmit",
     "typecheck:test": "tsc --project tsconfig.test.json --noEmit",
